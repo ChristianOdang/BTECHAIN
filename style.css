@@ -288,6 +288,9 @@ body {
 }
 
 .started {
+    background-image: url(images/Btc_img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
   margin-top: 100px;
   display: flex;
   flex-direction: column;
@@ -297,21 +300,23 @@ body {
   align-self: center;
   font-family: "Poppins";
   font-style: normal;
-  color: #FFFFFF;
-  font-weight: 500;
+  color: rgb(228, 17, 17);
+  font-weight: 800;
   font-size: 40px;
   line-height: 72px;
 }
 .started-slimtext {
   margin: 0;
+  padding: 8px;
   align-self: center;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 400;
+  text-align: center;
+  font-weight: 800;
   font-size: 20px;
   line-height: 36px;
   letter-spacing: 0.5px;
-  color: #E2E2E2;
+  color: rgb(228, 17, 17);
 }
 .started-items {
   padding: 60px 80px;
